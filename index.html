@@ -3,129 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ברוך הבא לעולם הבוטים!</title>
+    <title>בוט טכנולוגי</title>
     <style>
-        /* הגדרת גופן ורקע */
         body {
-            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background: #1e1e1e;
-            color: #f5f5f5;
-        }
-
-        /* סגנון לחלק העליון */
-        .hero {
-            background: linear-gradient(45deg, #333, #0078d4);
-            padding: 100px 0;
-            text-align: center;
-            color: #fff;
-        }
-
-        .hero h1 {
-            font-size: 3rem;
-            margin: 0;
-        }
-
-        .hero p {
-            font-size: 1.2rem;
-            margin: 20px 0;
-        }
-
-        /* סגנון לכפתור */
-        .btn {
-            background-color: #0078d4;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            font-size: 1.1rem;
-            cursor: pointer;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
-        }
-
-        .btn:hover {
-            background-color: #005bb5;
-        }
-
-        /* סגנון למקטע עם אייקונים */
-        .features {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
             display: flex;
             justify-content: center;
-            margin: 40px 0;
-        }
-
-        .feature {
-            margin: 0 30px;
+            align-items: center;
+            height: 100vh;
+            color: white;
             text-align: center;
-            width: 200px;
         }
 
-        .feature i {
-            font-size: 3rem;
-            color: #0078d4;
-            transition: transform 0.3s;
-        }
-
-        .feature i:hover {
-            transform: scale(1.2);
-        }
-
-        .feature h3 {
-            font-size: 1.3rem;
-            margin-top: 15px;
-        }
-
-        /* סגנון לתחתית */
-        .footer {
-            background-color: #333;
-            color: #aaa;
-            text-align: center;
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            height: 80%;
             padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-align: center; /* יישור למרכז */
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            text-align: center; /* יישור למרכז */
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            min-height: 700px;
+            border: none;
+            border-radius: 10px;
+        
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(-30px); }
+            100% { opacity: 1; transform: translateY(0); }
         }
     </style>
 </head>
 <body>
-
-    <!-- מקטע Hero -->
-    <div class="hero">
-        <h1>ברוך הבא לעולם של טכנולוגיית הבוטים!</h1>
-        <p>גלה איך בוט טכנולוגי יכול לשדרג את חווית המשתמש שלך ולספק תשובות מהירות ומדויקות.</p>
-        <button class="btn">למד עוד</button>
+    <div class="container">
+        <h1>ברוך הבא לבוט הקירור</h1>
+        <p>כאן תוכל למצוא מענה מקצועי לשאלות טכניות בנושא בקרה ורכיבים.</p>
+        <iframe src="https://www.chatbase.co/chatbot-iframe/BaL4Gig-UZGrFov2oHj86" width="100%" style="height: 100%; min-height: 700px" frameborder="0"></iframe>
     </div>
-
-    <!-- מקטע Features -->
-    <div class="features">
-        <div class="feature">
-            <i class="fas fa-robot"></i>
-            <h3>אינטליגנציה מלאכותית</h3>
-            <p>הבוטים שלנו מבוססים על טכנולוגיות מתקדמות המאפשרות להם להבין ולהגיב בצורה חכמה.</p>
-        </div>
-        <div class="feature">
-            <i class="fas fa-cogs"></i>
-            <h3>התאמה אישית</h3>
-            <p>תוכל להתאים את הבוטים לפי הצרכים שלך ולבצע אינטראקציה עם כל סוג של מערכת.</p>
-        </div>
-        <div class="feature">
-            <i class="fas fa-cloud"></i>
-            <h3>מובילות בענן</h3>
-            <p>המערכת שלנו מבוססת על פתרונות ענן מהירים ומאובטחים שמאפשרים גישה מכל מקום.</p>
-        </div>
-    </div>
-<iframe
-    src="https://www.chatbase.co/chatbot-iframe/BaL4Gig-UZGrFov2oHj86"
-    width="100%"
-    style="height: 100%; min-height: 700px"
-    frameborder="0"
-></iframe>
-    
-    <!-- תחתית האתר -->
-    <div class="footer">
-        <p>&copy; 2025 כל הזכויות שמורות</p>
-    </div>
-
-    <!-- הוספת אייקונים -->
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    
 </body>
 </html>

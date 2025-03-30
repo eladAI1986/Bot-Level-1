@@ -61,7 +61,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>ברוך הבא לבוט טכנולוגי</h1>
+        <h1>ברוך הבא לקולבוט</h1>
         <p>כאן תוכל לשוחח עם הבוט ולמצוא תשובות טכניות לשאלותיך.</p>
         <iframe src="https://www.chatbase.co/chatbot-iframe/BaL4Gig-UZGrFov2oHj86" width="100%" style="height: 100%; min-height: 700px" frameborder="0"></iframe>
     </div>

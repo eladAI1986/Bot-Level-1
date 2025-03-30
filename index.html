@@ -3,10 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>בוט טכני</title>
+    <title>בוט טכנולוגי</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>ברוך הבא לבוט שלי!</h1>
-    <p>זהו עמוד אינטרנט בסיסי שיכול לשמש את הבוט שלך.</p>
+    <div class="container">
+        <div class="chat-window">
+            <div class="chat-messages" id="chat-messages">
+                <div class="message bot-message">שלום! אני הבוט הטכנולוגי שלך.</div>
+            </div>
+            <div class="chat-input">
+                <input type="text" id="user-input" placeholder="הקלד הודעה...">
+                <button id="send-button">שלח</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>

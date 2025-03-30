@@ -26,6 +26,10 @@
             background: rgba(255, 255, 255, 0.1);
             border-radius: 10px;
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* יישור אנכי למרכז */
+            align-items: center; /* יישור אופקי למרכז */
         }
 
         h1 {
@@ -33,27 +37,21 @@
             margin-bottom: 20px;
             font-weight: bold;
             text-transform: uppercase;
-            text-align: center; /* יישור למרכז */
+            text-align: center;
         }
 
         p {
             font-size: 1.2em;
             margin-bottom: 30px;
-            text-align: center; /* יישור למרכז */
+            text-align: center;
         }
 
         iframe {
-            width: 100%;
-            height: 100%;
-            min-height: 700px;
+            width: 80%; /* שינוי רוחב הבוט */
+            height: 80%; /* שינוי גובה הבוט */
+            min-height: 500px; /* שינוי גובה מינימלי */
             border: none;
             border-radius: 10px;
-        
-        }
-
-        @keyframes fadeIn {
-            0% { opacity: 0; transform: translateY(-30px); }
-            100% { opacity: 1; transform: translateY(0); }
         }
     </style>
 </head>
@@ -61,7 +59,7 @@
     <div class="container">
         <h1>ברוך הבא לבוט הקירור</h1>
         <p>כאן תוכל למצוא מענה מקצועי לשאלות טכניות בנושא בקרה ורכיבים.</p>
-        <iframe src="https://www.chatbase.co/chatbot-iframe/BaL4Gig-UZGrFov2oHj86" width="100%" style="height: 100%; min-height: 700px" frameborder="0"></iframe>
+        <iframe src="https://www.chatbase.co/chatbot-iframe/BaL4Gig-UZGrFov2oHj86" frameborder="0"></iframe>
     </div>
 </body>
 </html>
